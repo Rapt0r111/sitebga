@@ -90,9 +90,8 @@ width: 81.7vw;
 #block5 {
 height: 90vh;
 width: 100vw;
-display:  table-cell;
+display:  block;
 margin-top: 100px;
-vertical-align: middle;
 text-align: center;
 }
 
@@ -153,6 +152,7 @@ height: 50px;
 .menu-bottom-inner {
 height: 94.4px;
 width: 100vw;
+text-align: center;
 display:  table-cell;
 vertical-align:  middle;
 }
@@ -217,7 +217,9 @@ color: #2298dd;
 .header-logo-title-inner:hover .header-logo-title-link {
 	color: #2298dd;
 }
-
+.mobile{
+	color: black;
+}
 @media (max-width:750px){
 	.header-logo-title-link{
 		display: none;
@@ -230,5 +232,8 @@ color: #2298dd;
 	}
 	marquee{
 		display: none;
+	}
+	.mobile{
+
 	}
 }
