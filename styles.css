@@ -218,7 +218,7 @@ color: #2298dd;
 	color: #2298dd;
 }
 
-@media (max-width:600px){
+@media (max-width:750px){
 	.header-logo-title-link{
 		display: none;
 	}
