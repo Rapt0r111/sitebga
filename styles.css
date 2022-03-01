@@ -13,7 +13,7 @@ padding: 10px;
 
 .dropbtn {
 padding: 0px;
-font-size: 16px;
+font-size: 14px;
 border: none;
 background-color: transparent;
 }
@@ -43,7 +43,8 @@ display: block;
 .dropdown:hover .dropbtn {cursor: pointer}
 
 .header-inner {
-	display: flex;
+display: flex;
+height: 144px;
 align-items: center;
 position: relative;
 overflow: visible;
@@ -58,9 +59,8 @@ position: relative;
 }
 
 #block1 {
-	display: flex;
+display: flex;
 vertical-align: middle;
-height: 15vh;
 box-shadow: 0 4px 3px rgba(0,0,0,0.2);
 }
 
@@ -124,6 +124,7 @@ box-sizing: border-box;
 
 .header-logo-title {
 margin-left: 25px;
+height: 124;
 padding: 10px 0 10px 0;
 padding-right: 20px;
 justify-content: center;
@@ -135,8 +136,7 @@ color: #2298dd;
 
 .menu {
 width: 1920px;
-overflow: hidden;
-height: 15vh;
+height: 144px;
 box-shadow: 0 4px 3px rgba(0,0,0,0.2);
 background-color: #007cc4;
 vertical-align: middle;
