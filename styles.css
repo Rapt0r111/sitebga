@@ -1,6 +1,7 @@
 body{
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 
@@ -216,7 +217,7 @@ color: #2298dd;
 	color: #2298dd;
 }
 .mobile{
-	color: black;
+	display: none;
 }
 @media (max-width:750px){
 	.header-logo-title-link{
@@ -232,6 +233,8 @@ color: #2298dd;
 		display: none;
 	}
 	.mobile{
-
+		padding-left: 10px;
+		font-family: inherit;
+		text-align: left;
 	}
 }
