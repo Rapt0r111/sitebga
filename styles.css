@@ -233,7 +233,7 @@ color: #2298dd;
 		display: none;
 	}
 	.mobile{
-                display: content;
+                display: block;
 		padding-left: 10px;
 		font-family: inherit;
 		text-align: left;
